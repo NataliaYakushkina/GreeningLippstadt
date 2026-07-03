@@ -1,0 +1,10 @@
+# Git LFS — large binaries that exceed GitHub's 100 MB file limit
+*.tgz filter=lfs diff=lfs merge=lfs -text
+
+# Normalize line endings for text sources
+* text=auto
+*.cs text
+*.shader text
+*.cginc text
+*.json text
+*.md text

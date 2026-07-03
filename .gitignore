@@ -1,0 +1,68 @@
+# ==============================================================
+# Unity .gitignore
+# ==============================================================
+
+# Unity-generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Asset meta files are kept; only ignore meta of ignored assets
+# (handled implicitly by ignoring the asset folders above)
+
+# IDE / Editor
+.vs/
+.vsconfig
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS / crash / logs
+sysinfo.txt
+.DS_Store
+Thumbs.db
+
+# Build artifacts (APK / AAB / packaged builds)
+*.apk
+*.aab
+*.app
+*.ipa
+*.unitypackage
+
+# Burst debug info (explicitly marked DoNotShip)
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# Crashlytics
+crashlytics-build.properties
+
+# ==============================================================
+# Project-specific excludes
+# ==============================================================
+
+# Raw Blender source art (kept locally, too large for the repo)
+Models_blend/
+
+# Legacy / misc
+QCAR/
+UpgradeLog.htm
+.utmp/
